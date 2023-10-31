@@ -202,6 +202,22 @@ hr {
 .python {
     animation: python 1s linear forwards 0.5s;
 }
+
+.gd {
+    animation: gd 1s linear forwards 0.5s;
+}
+
+.tm {
+    animation: tm 1s linear forwards 0.5s;
+}
+
+.ct {
+    animation: ct 1s linear forwards 0.5s;
+}
+
+.cp {
+    animation: cp 1s linear forwards 0.5s;
+}
 @keyframes html {
     100% {
         width: 75%;
@@ -223,6 +239,30 @@ hr {
 @keyframes python {
     100% {
         width: 70%;
+    }
+}
+
+@keyframes gd {
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes tm {
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes ct {
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes cp {
+    100% {
+        width: 65%;
     }
 }
 
